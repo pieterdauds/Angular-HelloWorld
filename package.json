@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "nginstall": "npm install -g @angular/cli",
+    "npxinstall": "npm install -g npx",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
