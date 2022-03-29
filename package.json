@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "nginstall": "npm install -g @angular/cli",
+    "nginstall": "npm install -i @angular/cli",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
