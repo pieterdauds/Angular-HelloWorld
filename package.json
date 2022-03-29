@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "nginstall": "npm install -i @angular/cli",
+    "unins": "npm uninstall -g angular-cli"
+    "uninss": "npm uninstall -g @angular/cli"
+    "uninsss": "npm cache clean"
+    "uninssss": "npm install -g @angular/cli"
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -13,7 +16,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/cli": "^13.3.0",
+    "@angular/cli": "^7.2.0",
     "@angular/animations": "^7.2.0",
     "@angular/common": "^7.2.0",
     "@angular/compiler": "^7.2.0",
@@ -29,6 +32,7 @@
     "zone.js": "^0.8.27"
   },
   "devDependencies": {
+    "@angular/cli": "^7.2.0",
     "@angular/compiler-cli": "^7.2.0",
     "@angular/language-service": "^7.2.0",
     "typescript": "3.2.2",
