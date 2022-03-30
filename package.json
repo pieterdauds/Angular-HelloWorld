@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "unins": "npm uninstall -g angular-cli",
-    "uninss": "npm uninstall -g @angular/cli",
-    "uninsss": "npm cache clean",
-    "uninssss": "npm install -g @angular/cli",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
