@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
+    "devinst": "npm install --save-dev @angular-devkit/build-angular"
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
